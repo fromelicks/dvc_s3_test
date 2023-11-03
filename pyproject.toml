@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dvc-try"
+version = "0.1.0"
+description = ""
+authors = ["fromelicks"]
+readme = "README.md"
+packages = [{include = "try.py"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+boto3 = "^1.28.77"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,5 @@
+[core]
+    remote = yacloud
+['remote "yacloud"']
+    url = s3://dvc-test-bucket/dvc-here
+    region = ru-central1
